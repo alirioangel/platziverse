@@ -1,0 +1,27 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT platform - Module DB",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirioangel/platziverse.git"
+  },
+  "author": "Alirio - Platzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirioangel/platziverse/issues"
+  },
+  "homepage": "https://github.com/alirioangel/platziverse#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "pg": "^7.17.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  }
+}
